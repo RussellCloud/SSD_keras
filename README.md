@@ -8,22 +8,22 @@ SSD是一种Object Detection方法。本文是基于论文[SSD: Single Shot Mult
 ## 模型效果
 - 模型对载具的检测
 <p align="center">
-<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Aeroplane.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/source/Aeroplane.png" height="300">
 </p>
 <p align="center">
-<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Bicycle.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/source/Bicycle.png" height="300">
 </p>
 
 - 模型对动物的检测
 <p align="center">
-<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Dog.png" height="300">
-<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Cat.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/source/Dog.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/source/Cat.png" height="300">
 </p>
 
 
 - 模型的视频检测
 <p align="center">
-<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/car.gif">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/source/car.gif">
 </p>
 
 ---

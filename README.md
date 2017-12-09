@@ -8,23 +8,22 @@ SSD是一种Object Detection方法。本文是基于论文[SSD: Single Shot Mult
 ## 模型效果
 - 模型对载具的检测
 <p align="center">
-<img src="output/Aeroplane.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Aeroplane.png" height="300">
 </p>
-
 <p align="center">
-<img src="output/Bicycle.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Bicycle.png" height="300">
 </p>
 
 - 模型对动物的检测
 <p align="center">
-<img src="output/Dog.png" height="300">
-<img src="output/Cat.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Dog.png" height="300">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/Cat.png" height="300">
 </p>
 
 
 - 模型的视频检测
 <p align="center">
-<img src="https://github.com/kuhung/SSD_keras/blob/master/output/car.gif">
+<img src="https://github.com/RussellCloud/SSD_keras/raw/master/output/car.gif">
 </p>
 
 ---
@@ -42,14 +41,14 @@ numpy==1.13.3
 如果想跑通视频模块，则需额外`pip install scikit-video`
 
 ### 具体操作
-```
-git clone git@github.com:kuhung/SSD_keras.git
-cd SSD_keras
-```
-- Download model weight `weights_SSD300.hdf5`[here](https://github.com/kuhung/SSD_keras/releases)
+
+在[RussellCloud](http://russellcloud.com)上新建名为`SSD_keras`的项目
 
 ```
-cp weights_SSD300.hdf5 into SSD_keras
+git clone git@github.com:RussellCloud/SSD_keras.git
+cd SSD_keras
+russell init --name SSD_keras
+russell run --mode jupyter --data 8a327f008d654293a02f496b791ccc56
 ```
 
 - 对于图片的检测
@@ -71,8 +70,7 @@ python videotest_example.py hy.mp4
 ---
 参考资料
 
-[SSD: Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325)
-
-[论文阅读：SSD: Single Shot MultiBox Detector](http://blog.csdn.net/u010167269/article/details/52563573)
-
-[rykov8/ssd_keras](https://github.com/rykov8/ssd_keras)
+- [SSD: Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325)
+- [论文阅读：SSD: Single Shot MultiBox Detector](http://blog.csdn.net/u010167269/article/details/52563573)
+- [kuhung/SSD_keras](https://github.com/kuhung/SSD_keras)
+- [rykov8/ssd_keras](https://github.com/rykov8/ssd_keras)
